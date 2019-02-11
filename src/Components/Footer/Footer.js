@@ -5,7 +5,7 @@ class Footer extends Component {
     render(){
         return(
             <footer>
-                <article class="content-width">
+                <article className="content-width">
                     &copy;artifact.com 2019
                 </article>
             </footer>

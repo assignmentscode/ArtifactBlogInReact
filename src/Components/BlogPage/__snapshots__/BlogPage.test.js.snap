@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPage should render a complete webPage 1`] = `
+<div>
+  <header>
+    <nav
+      className="content-width"
+    >
+      <p>
+        The Artifact
+      </p>
+      <p
+        className="heading-content"
+      >
+        Culture & Art blog
+      </p>
+      <ul>
+        <li>
+          Blog
+        </li>
+        <li>
+          About
+        </li>
+        <li>
+          Contact
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <footer>
+    <article
+      className="content-width"
+    >
+      ©artifact.com 2019
+    </article>
+  </footer>
+</div>
+`;
