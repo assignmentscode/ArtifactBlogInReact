@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-weight: 10;
+    margin: 0px;
+  }
+  .content-width {
+    width: 70%;
+    margin: auto;
+  }
+  footer {
+    background-color: black;
+    color: aliceblue;
+    height: 10%;
+    vertical-align: middle;
+  }

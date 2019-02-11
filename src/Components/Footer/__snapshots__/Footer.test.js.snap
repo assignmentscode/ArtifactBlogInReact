@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render a footer 1`] = `
+<footer>
+  <article
+    class="content-width"
+  >
+    ©artifact.com 2019
+  </article>
+</footer>
+`;
