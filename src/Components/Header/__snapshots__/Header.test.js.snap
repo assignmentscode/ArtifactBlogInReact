@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render a header 1`] = `
+<header>
+  <nav
+    className="content-width"
+  >
+    <p>
+      The Artifact
+    </p>
+    <p
+      className="heading-content"
+    >
+      Culture & Art blog
+    </p>
+    <ul>
+      <li>
+        Blog
+      </li>
+      <li>
+        About
+      </li>
+      <li>
+        Contact
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
