@@ -27,6 +27,373 @@ exports[`BlogPage should render a complete webPage 1`] = `
       </ul>
     </nav>
   </header>
+  <div
+    className="div-blogs content-width"
+  >
+    <div
+      className="card"
+    >
+      <img
+        alt="John"
+        className="blog-image"
+        src="abstract.png"
+      />
+      <figcaption>
+        <span
+          className="date"
+        >
+          2nd Januray, 2018
+        </span>
+        <span
+          className="read-time"
+        >
+          2 mins
+        </span>
+      </figcaption>
+      <p
+        className="post-heading"
+      >
+        The future of abstract art and the culture ...
+      </p>
+      <p
+        className="blog-content"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <img
+        alt="Clap"
+        className="clap-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "clapping.svg",
+          }
+        }
+      />
+      <span
+        className="clap-count"
+      >
+        10
+      </span>
+      <img
+        alt="Heart"
+        className="heart-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "heart-black.svg",
+          }
+        }
+      />
+    </div>
+    <div
+      className="card"
+    >
+      <img
+        alt="John"
+        className="blog-image"
+        src="outdoor.png"
+      />
+      <figcaption>
+        <span
+          className="date"
+        >
+          31st Januray, 2018
+        </span>
+        <span
+          className="read-time"
+        >
+          1 min
+        </span>
+      </figcaption>
+      <p
+        className="post-heading"
+      >
+        How painting outdoors can transform your 
+      </p>
+      <p
+        className="blog-content"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <img
+        alt="Clap"
+        className="clap-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "clapping.svg",
+          }
+        }
+      />
+      <span
+        className="clap-count"
+      >
+        1
+      </span>
+      <img
+        alt="Heart"
+        className="heart-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "heart-red.svg",
+          }
+        }
+      />
+    </div>
+    <div
+      className="card"
+    >
+      <img
+        alt="John"
+        className="blog-image"
+        src="young-painters.png"
+      />
+      <figcaption>
+        <span
+          className="date"
+        >
+          20th March, 2018
+        </span>
+        <span
+          className="read-time"
+        >
+          2 mins
+        </span>
+      </figcaption>
+      <p
+        className="post-heading"
+      >
+        10 young painters you need to know
+      </p>
+      <p
+        className="blog-content"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <img
+        alt="Clap"
+        className="clap-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "clapping.svg",
+          }
+        }
+      />
+      <span
+        className="clap-count"
+      >
+        15
+      </span>
+      <img
+        alt="Heart"
+        className="heart-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "heart-black.svg",
+          }
+        }
+      />
+    </div>
+    <div
+      className="card"
+    >
+      <img
+        alt="John"
+        className="blog-image"
+        src="perfect-art.png"
+      />
+      <figcaption>
+        <span
+          className="date"
+        >
+          22nd June, 2018
+        </span>
+        <span
+          className="read-time"
+        >
+          5 mins
+        </span>
+      </figcaption>
+      <p
+        className="post-heading"
+      >
+        Tips for creating the perfect art
+      </p>
+      <p
+        className="blog-content"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <img
+        alt="Clap"
+        className="clap-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "clapping.svg",
+          }
+        }
+      />
+      <span
+        className="clap-count"
+      >
+        11
+      </span>
+      <img
+        alt="Heart"
+        className="heart-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "heart-black.svg",
+          }
+        }
+      />
+    </div>
+    <div
+      className="card"
+    >
+      <img
+        alt="John"
+        className="blog-image"
+        src="inspired.png"
+      />
+      <figcaption>
+        <span
+          className="date"
+        >
+          4th Feburary, 2019
+        </span>
+        <span
+          className="read-time"
+        >
+          9 mins
+        </span>
+      </figcaption>
+      <p
+        className="post-heading"
+      >
+        Stay inspired: top artists blog ...
+      </p>
+      <p
+        className="blog-content"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <img
+        alt="Clap"
+        className="clap-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "clapping.svg",
+          }
+        }
+      />
+      <span
+        className="clap-count"
+      >
+        45
+      </span>
+      <img
+        alt="Heart"
+        className="heart-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "heart-red.svg",
+          }
+        }
+      />
+    </div>
+    <div
+      className="card"
+    >
+      <img
+        alt="John"
+        className="blog-image"
+        src="reason.png"
+      />
+      <figcaption>
+        <span
+          className="date"
+        >
+          10th Januray, 2019
+        </span>
+        <span
+          className="read-time"
+        >
+          2 mins
+        </span>
+      </figcaption>
+      <p
+        className="post-heading"
+      >
+        5 reasons why everyone should try an...
+      </p>
+      <p
+        className="blog-content"
+      >
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+      <hr />
+      <img
+        alt="Clap"
+        className="clap-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "clapping.svg",
+          }
+        }
+      />
+      <span
+        className="clap-count"
+      >
+        11
+      </span>
+      <img
+        alt="Heart"
+        className="heart-logo"
+        src={
+          Object {
+            "ReactComponent": [Function],
+            "__esModule": true,
+            "default": "heart-black.svg",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="btn-class"
+  >
+    <button
+      className="btn"
+    >
+      Post New Blog
+    </button>
+  </div>
   <footer>
     <article
       className="content-width"

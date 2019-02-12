@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-weight: 10;
+    margin: 0px;
+  }
+.card {
+    /* max-width: 280px; */
+    flex-basis: 300px;
+    align-self: flex-start;
+    text-align: center;
+    font-family: arial;
+    border : 0.2px solid gray;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog-image {
+    width : 300px;
+    height: 220px;
+}
+.date {
+    margin: 0;
+    float: left;
+    font-size: 12px;
+    color: gray;
+  }
+  .read-time {
+    margin :0;
+    float:right;
+    font-size: 12px;
+    color: gray;
+  }
+  .post-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.blog-content {
+    font-size: 14px;
+    color: gray;
+    text-align: left;
+    margin: 2px 8px;
+}
+figcaption {
+    margin: 5px;
+    padding-bottom: 8px;
+}
+.clap-logo {
+    float: left;
+    padding: 1px 5px 5px 5px;
+    width: 8%;
+}
+.heart-logo {
+    float: right;
+    padding: 3px 10px 10px 5px;
+    width: 8%;
+}
+.clap-count {
+    float:left;
+    padding: 3px;
+    color: gray;
+}
+hr {
+    margin: 8px 10px;
+}
