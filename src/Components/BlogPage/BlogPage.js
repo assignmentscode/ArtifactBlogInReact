@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link} from 'react-router-dom';
 import Header from './../Header/Header';
 import Footer from './../Footer/Footer';
 import Card from './../Card/Card';
@@ -16,7 +17,9 @@ class BlogPage extends Component {
                     {cards}
                 </div>
                 <div className="btn-class">
-                    <button className="btn">Post New Blog</button>
+                    <Link to ="/posts">
+                        <button className="btn">Post New Blog</button>
+                    </Link>
                 </div>
                 <Footer/>
             </div>

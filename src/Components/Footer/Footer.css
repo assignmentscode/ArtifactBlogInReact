@@ -1,6 +1,4 @@
 body, html {
-    height: 100%;
-    width: 100%;
     font-weight: 10;
     margin: 0px;
   }
@@ -9,8 +7,14 @@ body, html {
     margin: auto;
   }
   footer {
-    background-color: black;
-    color: aliceblue;
-    height: 10%;
-    vertical-align: middle;
+    background: #000;
+    color: #fff;
+    position: relative;
+    width:100vw;
+    height: 5vw;
+    bottom: 0;
+  }
+
+  .footer p {
+    font-size: 0.8em;  
   }
