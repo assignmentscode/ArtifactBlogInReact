@@ -1,13 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CreateBlogForm should render form for creating Blog Post 1`] = `
-<form>
+<form
+  className="form-width"
+>
   <ul
-    class="flex-outer"
+    className="flex-outer"
   >
     <li>
       <label
-        for="date"
+        for="date-form"
       >
         Date
       </label>
@@ -52,13 +54,17 @@ exports[`CreateBlogForm should render form for creating Blog Post 1`] = `
         rows="6"
       />
     </li>
-    <li>
-      <button
-        type="submit"
-      >
-        Submit
-      </button>
-    </li>
   </ul>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="btn-submit"
+      type="submit"
+    >
+      Submit
+    </button>
+  </a>
 </form>
 `;

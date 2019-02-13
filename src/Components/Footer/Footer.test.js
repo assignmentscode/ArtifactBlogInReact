@@ -9,7 +9,7 @@ describe('Footer', ()=> {
         expect(tree).toMatchSnapshot();
     });
     const wrapper = shallow(<Footer/>);
-    it('should have 1 article', ()=> {
-        expect(wrapper.find('article').getElements().length).toEqual(1);
+    it('should have 1 paragraph', ()=> {
+        expect(wrapper.find('p').getElements().length).toEqual(1);
     });
 });

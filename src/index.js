@@ -1,22 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
-import App from './Components/BlogPage/BlogPage';
 import * as serviceWorker from './serviceWorker';
-import Form from './Components/CreatePostPage/CreatePostPage';
-const BlogData = require('./mockData/index.json');
+import Routing from './Routes/Routing';
+//const {routing} = require('../src/Routes/Routes');
 
-const routing = (
-    <Router>
-      <div>
-        <Route exact path="/" render={()=>(<App Blogdata={BlogData}/>)}/>
-        <Route path="/posts" component={Form} />
-      </div>
-    </Router>
-  )
+//console.log(routing);
 
-ReactDOM.render(routing, document.getElementById('root'));
+
+ReactDOM.render(<Routing />, document.getElementById('root'));
 //ReactDOM.render(<Form/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
